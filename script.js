@@ -150,7 +150,7 @@ document.querySelectorAll('section').forEach(section => {
 
 // Typewriter Effect
 const typewriterElement = document.getElementById('typewriter');
-const phrases = ['Adarsh Tiwari', 'a Developer', 'a YouTuber', 'a Mentor', 'a Problem Solver'];
+const phrases = ['Adarsh Tiwari', 'a Developer', 'a Devops Engineer', 'a Mentor', 'a Problem Solver'];
 
 let phraseIndex = 0;
 let charIndex = 0;

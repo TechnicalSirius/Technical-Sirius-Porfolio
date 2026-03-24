@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adarsh Tiwari | Technical Sirius - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Scroll Progress Bar -->
+    <div class="progress-bar" id="progressBar"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-bracket">{</span> 
+                <i class="fas fa-code"></i> Technical Sirius 
+                <span class="logo-bracket">}</span>
+            </a>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link active">
+                    <i class="fas fa-home"></i> Home
+                </a>
+                <a href="#about" class="nav-link">
+                    <i class="fas fa-user"></i> About
+                </a>
+                <a href="#experience" class="nav-link">
+                    <i class="fas fa-briefcase"></i> Experience
+                </a>
+                <a href="#services" class="nav-link">
+                    <i class="fas fa-cogs"></i> Services
+                </a>
+                <a href="#projects" class="nav-link">
+                    <i class="fas fa-folder-open"></i> Projects
+                </a>
+                <a href="#contact" class="nav-link">
+                    <i class="fas fa-envelope"></i> Contact
+                </a>
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-particles" id="particles-js"></div>
+            <div class="hero-bg-gradient"></div>
+            
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text animate-pop-in">
+                        <div class="hero-badge">
+                            <i class="fas fa-code"></i>
+                            <span>Available for Work</span>
+                            <i class="fas fa-circle status-dot"></i>
+                        </div>
+                        
+                        <h1 class="title">
+                            <span class="typewriter-container">
+                                <span class="static-text">I am </span>
+                                <span class="typewriter-text" id="typewriter"></span>
+                                <span class="cursor-blink">|</span>
+                            </span>
+                            <span class="aka"><i class="fas fa-tag"></i> aka Technical Sirius</span>
+                        </h1>
+                        
+                        <p class="description">
+                            <i class="fas fa-globe"></i> This website is all about Website Development, Technical, Tips and Tricks, 
+                            Designs Principle, Devops Engineering Source Code sales and Programming videos.
+                        </p>
+                        
+                        <div class="hero-stats">
+                            <div class="hero-stat">
+                                <div class="stat-number">5+</div>
+                                <div class="stat-label">Years Experience</div>
+                            </div>
+                            <div class="hero-stat">
+                                <div class="stat-number">50+</div>
+                                <div class="stat-label">Projects Done</div>
+                            </div>
+                            <div class="hero-stat">
+                                <div class="stat-number">30+</div>
+                                <div class="stat-label">Happy Clients</div>
+                            </div>
+                        </div>
+                        
+                        <div class="hero-buttons">
+                            <a href="Doc/Adarsh Tiwari.pdf" target="_blank" class="btn btn-primary">
+                                <i class="fas fa-paper-plane"></i> Hire Me
+                                <span class="btn-glow"></span>
+                            </a>
+                            <a href="#projects" class="btn btn-outline">
+                                <i class="fas fa-eye"></i> View Work
+                                <i class="fas fa-arrow-right btn-icon"></i>
+                            </a>
+                        </div>
+                        
+                        <div class="hero-social">
+                            <span class="social-label">Follow me on</span>
+                            <div class="hero-social-links">
+                                <a href="https://github.com/TechnicalSirius" target="_blank" class="hero-social-link"><i class="fab fa-github"></i></a>
+                                <a href="https://www.linkedin.com/in/adarsh-tiwari/" target="_blank" class="hero-social-link"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://twitter.com/TechnicalSirius" target="_blank" class="hero-social-link"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.youtube.com/c/TechnicalSirius" target="_blank" class="hero-social-link"><i class="fab fa-youtube"></i></a>
+                                <a href="https://www.instagram.com/technicalsirius/" target="_blank" class="hero-social-link"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-image animate-pop-in">
+                        <div class="image-wrapper">
+                            <div class="image-glow"></div>
+                            <img src="images/Adarsh.png" alt="Adarsh Tiwari">
+                            
+                            <!-- Floating Cards Inside Image - 6 Cards -->
+                            
+                            <!-- Card 1: React Expert - Top Left -->
+                            <div class="floating-card card-1">
+                                <div class="card-icon">
+                                    <i class="fab fa-react"></i>
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title">React Expert</span>
+                                    <span class="card-subtitle">5+ years</span>
+                                </div>
+                            </div>
+                            
+                            <!-- Card 2: Node.js - Top Right -->
+                            <div class="floating-card card-2">
+                                <div class="card-icon">
+                                    <i class="fab fa-node-js"></i>
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title">Node.js</span>
+                                    <span class="card-subtitle">Backend Expert</span>
+                                </div>
+                            </div>
+                            
+                            <!-- Card 3: MongoDB - Middle Left -->
+                            <div class="floating-card card-3">
+                                <div class="card-icon">
+                                    <i class="fas fa-database"></i>
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title">MongoDB</span>
+                                    <span class="card-subtitle">Database Guru</span>
+                                </div>
+                            </div>
+                            
+                            <!-- Card 4: Python - Middle Right -->
+                            <div class="floating-card card-4">
+                                <div class="card-icon">
+                                    <i class="fab fa-python"></i>
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title">Python</span>
+                                    <span class="card-subtitle">AI/ML Enthusiast</span>
+                                </div>
+                            </div>
+                            
+                            <!-- Card 5: AWS Cloud - Bottom Left -->
+                            <div class="floating-card card-5">
+                                <div class="card-icon">
+                                    <i class="fab fa-aws"></i>
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title">AWS Cloud</span>
+                                    <span class="card-subtitle">DevOps Ready</span>
+                                </div>
+                            </div>
+                            
+                            <!-- Card 6: TypeScript - Bottom Right -->
+                            <div class="floating-card card-6">
+                                <div class="card-icon">
+                                    <i class="fab fa-js"></i>
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title">TypeScript</span>
+                                    <span class="card-subtitle">Type Safe Code</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-wave">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                    <path fill="var(--bg-secondary)" fill-opacity="1" d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,122.7C672,117,768,139,864,154.7C960,171,1056,181,1152,165.3C1248,149,1344,107,1392,85.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+                </svg>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">
+                        <i class="fas fa-info-circle"></i> About me
+                    </span>
+                    <h2 class="section-title">
+                        <span class="bracket"><</span> Adarsh Tiwari 
+                        <span class="bracket">/></span>
+                    </h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p class="about-description">
+                            <i class="fas fa-user-circle"></i>
+                            <span class="aka">aka Technical Sirius</span> is a Full Stack Developer and Content Creator. 
+                            I want to help others by providing free tutorials on Web Development and modern technologies.
+                        </p>
+                        <div class="social-links">
+                            <a href="https://github.com/TechnicalSirius" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/adarsh-tiwari/" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/technicalsirius/" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/c/TechnicalSirius" target="_blank" class="social-link"><i class="fab fa-youtube"></i></a>
+                            <a href="https://www.facebook.com/TechnicalSirius" target="_blank" class="social-link"><i class="fab fa-facebook"></i></a>
+                        </div>
+                    </div>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <i class="fas fa-project-diagram"></i>
+                            <div class="stat-number" data-target="50">50+</div>
+                            <div class="stat-label">Projects</div>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fas fa-users"></i>
+                            <div class="stat-number" data-target="30">30+</div>
+                            <div class="stat-label">Clients</div>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fas fa-handshake"></i>
+                            <div class="stat-number" data-target="15">15+</div>
+                            <div class="stat-label">Collaborations</div>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fab fa-youtube"></i>
+                            <div class="stat-number" data-target="50000">50K+</div>
+                            <div class="stat-label">Subscribers</div>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fas fa-eye"></i>
+                            <div class="stat-number" data-target="1000000">1M+</div>
+                            <div class="stat-label">Views</div>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fas fa-video"></i>
+                            <div class="stat-number" data-target="200">200+</div>
+                            <div class="stat-label">Videos</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">
+                        <i class="fas fa-briefcase"></i> My Journey
+                    </span>
+                    <h2 class="section-title">Work <span class="highlight">Experience</span></h2>
+                    <div class="section-line"></div>
+                </div>
+                
+                <div class="experience-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="timeline-date">
+                            <i class="far fa-calendar-alt"></i>
+                            <span>2022 - Present</span>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3>Senior Full Stack Developer</h3>
+                                <div class="company">
+                                    <i class="fas fa-building"></i>
+                                    <span>Technical Sirius</span>
+                                </div>
+                                <div class="location">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>India (Remote)</span>
+                                </div>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Leading development of enterprise-level web applications, mentoring junior developers, and architecting scalable solutions using MERN stack.</p>
+                                <div class="tech-stack">
+                                    <span class="tech-badge"><i class="fab fa-react"></i> React.js</span>
+                                    <span class="tech-badge"><i class="fab fa-node-js"></i> Node.js</span>
+                                    <span class="tech-badge"><i class="fas fa-database"></i> MongoDB</span>
+                                    <span class="tech-badge"><i class="fab fa-js"></i> TypeScript</span>
+                                    <span class="tech-badge"><i class="fab fa-aws"></i> AWS</span>
+                                </div>
+                                <ul class="achievements">
+                                    <li><i class="fas fa-check-circle"></i> Led a team of 5 developers to deliver 10+ projects</li>
+                                    <li><i class="fas fa-check-circle"></i> Improved application performance by 40%</li>
+                                    <li><i class="fas fa-check-circle"></i> Implemented CI/CD pipeline reducing deployment time by 60%</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-dot">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="timeline-date">
+                            <i class="far fa-calendar-alt"></i>
+                            <span>2020 - 2022</span>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3>Frontend Developer</h3>
+                                <div class="company">
+                                    <i class="fas fa-building"></i>
+                                    <span>Tech Innovations Inc.</span>
+                                </div>
+                                <div class="location">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Bangalore, India</span>
+                                </div>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Developed responsive web applications, collaborated with UI/UX designers, and optimized frontend performance.</p>
+                                <div class="tech-stack">
+                                    <span class="tech-badge"><i class="fab fa-react"></i> React.js</span>
+                                    <span class="tech-badge"><i class="fas fa-store"></i> Redux</span>
+                                    <span class="tech-badge"><i class="fab fa-css3-alt"></i> Tailwind CSS</span>
+                                    <span class="tech-badge"><i class="fab fa-figma"></i> Figma</span>
+                                </div>
+                                <ul class="achievements">
+                                    <li><i class="fas fa-check-circle"></i> Built 15+ responsive websites with 99% client satisfaction</li>
+                                    <li><i class="fas fa-check-circle"></i> Reduced load time by 35% through code optimization</li>
+                                    <li><i class="fas fa-check-circle"></i> Mentored 3 junior developers</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="experience-stats">
+                    <div class="exp-stat">
+                        <i class="fas fa-clock"></i>
+                        <div class="stat-info">
+                            <h4>5+ Years</h4>
+                            <p>Total Experience</p>
+                        </div>
+                    </div>
+                    <div class="exp-stat">
+                        <i class="fas fa-trophy"></i>
+                        <div class="stat-info">
+                            <h4>15+ Awards</h4>
+                            <p>Recognitions</p>
+                        </div>
+                    </div>
+                    <div class="exp-stat">
+                        <i class="fas fa-users"></i>
+                        <div class="stat-info">
+                            <h4>30+ Clients</h4>
+                            <p>Worldwide</p>
+                        </div>
+                    </div>
+                    <div class="exp-stat">
+                        <i class="fas fa-code-branch"></i>
+                        <div class="stat-info">
+                            <h4>50+ Projects</h4>
+                            <p>Completed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">
+                        <i class="fas fa-cog"></i> SERVICES
+                    </span>
+                    <h2 class="section-title">What I <span class="highlight">Do</span></h2>
+                    <div class="section-line"></div>
+                </div>
+                <p class="services-description">
+                    <i class="fas fa-rocket"></i> I offer comprehensive digital services including web design, UI/UX design, app development, 
+                    and web development solutions.
+                </p>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3><i class="fas fa-paint-brush"></i> Web Design</h3>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fa-brands fa-jenkins"></i>
+                        </div>
+                        <h3><i class="fa-solid fa-gear"></i> Automation</h3>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3><i class="fas fa-code"></i> App Development</h3>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h3><i class="fas fa-database"></i> Web Development</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section - 6 Projects -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">
+                        <i class="fas fa-folder-open"></i> My Work
+                    </span>
+                    <h2 class="section-title">Featured <span class="highlight">Projects</span></h2>
+                    <div class="section-line"></div>
+                </div>
+                
+                <div class="projects-grid">
+                    <!-- Project 1: JARVIS-2.0 AI Assistant -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/project.1.png" alt="JARVIS-2.0 AI Assistant">
+                            <div class="project-badge">Featured</div>
+                        </div>
+                        <div class="project-content">
+                            <h3><i class="fas fa-robot"></i> JARVIS-2.0 AI Assistant</h3>
+                            <p>Developed a sophisticated personal AI assistant featuring a custom GUI and directory management. Integrated DeepSeek API for advanced natural language processing and automated task execution.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag"><i class="fab fa-python"></i> Python</span>
+                                <span class="tech-tag"><i class="fas fa-brain"></i> DeepSeek API</span>
+                                <span class="tech-tag"><i class="fas fa-desktop"></i> GUI</span>
+                                <span class="tech-tag"><i class="fas fa-folder"></i> Directory Management</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i> View Code</a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: MinkPhisher - Security Tool -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/project.2.png" alt="MinkPhisher">
+                            <div class="project-badge">Security</div>
+                        </div>
+                        <div class="project-content">
+                            <h3><i class="fas fa-shield-alt"></i> MinkPhisher</h3>
+                            <p>Created an automated phishing simulation tool for cybersecurity awareness and educational defense training. Designed modular templates for various login interfaces to demonstrate data capture logic in a controlled environment.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag"><i class="fas fa-terminal"></i> Bash Scripting</span>
+                                <span class="tech-tag"><i class="fas fa-user-secret"></i> Social Engineering</span>
+                                <span class="tech-tag"><i class="fas fa-shield-virus"></i> Security</span>
+                                <span class="tech-tag"><i class="fas fa-graduation-cap"></i> Educational</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i> View Code</a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Documentation</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: Yodha Game -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/project.3.png" alt="Yodha Game">
+                            <div class="project-badge">Game Dev</div>
+                        </div>
+                        <div class="project-content">
+                            <h3><i class="fas fa-gamepad"></i> Yodha (2.5D Action Game)</h3>
+                            <p>Engineered a 2.5D action-adventure platformer featuring custom character physics and retro-inspired mechanics. Implemented a master blueprint system for scalable level design and interactive UI components.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag"><i class="fas fa-cube"></i> Godot Engine</span>
+                                <span class="tech-tag"><i class="fas fa-code"></i> GDScript</span>
+                                <span class="tech-tag"><i class="fas fa-physics"></i> Custom Physics</span>
+                                <span class="tech-tag"><i class="fas fa-layer-group"></i> Blueprint System</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i> Play Game</a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4: Bramhand AI - EdTech Platform -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/project.4.png" alt="Bramhand AI">
+                            <div class="project-badge">EdTech</div>
+                        </div>
+                        <div class="project-content">
+                            <h3><i class="fas fa-chalkboard-user"></i> Bramhand AI</h3>
+                            <p>Founded an EdTech platform focused on bridging the gap between basic literacy and advanced technical skills. Author of "Computer Fundamentals – Zero to Mastery": A bilingual (English/Hindi) technical textbook designed for school and ITI students.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag"><i class="fas fa-graduation-cap"></i> Education</span>
+                                <span class="tech-tag"><i class="fas fa-book"></i> Textbook Author</span>
+                                <span class="tech-tag"><i class="fas fa-language"></i> Bilingual</span>
+                                <span class="tech-tag"><i class="fas fa-rocket"></i> Technical Sirius</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-book"></i> Read Book</a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Visit Platform</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 5: CMD Complete Course -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/project.5.png" alt="CMD Course">
+                            <div class="project-badge">Course</div>
+                        </div>
+                        <div class="project-content">
+                            <h3><i class="fas fa-terminal"></i> CMD Complete Course</h3>
+                            <p>Curated a comprehensive "CMD Complete Course" covering 280+ commands, structured into professional modular learning paths. Designed for beginners to advanced users with practical examples and exercises.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag"><i class="fas fa-terminal"></i> 280+ Commands</span>
+                                <span class="tech-tag"><i class="fas fa-layer-group"></i> Modular Learning</span>
+                                <span class="tech-tag"><i class="fas fa-chart-line"></i> Beginner to Pro</span>
+                                <span class="tech-tag"><i class="fas fa-certificate"></i> Certification</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-play-circle"></i> Start Course</a>
+                                <a href="#" class="project-link"><i class="fas fa-download"></i> Syllabus</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 6: Technical Sirius Portfolio Website -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/600x400/2563eb/ffffff?text=Technical+Sirius+Portfolio" alt="Portfolio Website">
+                            <div class="project-badge">Web Dev</div>
+                        </div>
+                        <div class="project-content">
+                            <h3><i class="fas fa-globe"></i> Technical Sirius Portfolio</h3>
+                            <p>A modern, responsive portfolio website featuring dark/light mode toggle, typewriter animation, particle background, and interactive UI components. Built with HTML5, CSS3, and JavaScript with glassmorphism design.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag"><i class="fab fa-html5"></i> HTML5</span>
+                                <span class="tech-tag"><i class="fab fa-css3-alt"></i> CSS3</span>
+                                <span class="tech-tag"><i class="fab fa-js"></i> JavaScript</span>
+                                <span class="tech-tag"><i class="fas fa-moon"></i> Dark/Light Mode</span>
+                                <span class="tech-tag"><i class="fas fa-code"></i> Typewriter Effect</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- View All Projects Button -->
+                <div class="view-all-container">
+                    <a href="#" class="btn btn-outline">
+                        <i class="fab fa-github"></i> View All Projects on GitHub
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <h2 class="contact-title">
+                            <i class="fas fa-handshake"></i> Have a Project or want to <span class="highlight">Collaborate?</span>
+                        </h2>
+                        <p class="contact-description">
+                            <i class="fas fa-envelope-open-text"></i> I would love to hear from you. Drop a message.
+                        </p>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                               
+                                <div>
+                                    <h4><i class="fas fa-location-dot"></i> Location</h4>
+                                    <p>India</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                               
+                                <div>
+                                    <h4><i class="fas fa-mail-bulk"></i> Mail at</h4>
+                                    <p>technicalsirius@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-social">
+                            <h4><i class="fas fa-share-alt"></i> Follow on</h4>
+                            <div class="social-links">
+                                <a href="https://github.com/TechnicalSirius" class="social-link"><i class="fab fa-facebook"></i></a>
+                                <a href="https://instagram.com/technical_sirius" class="social-link"><i class="fab fa-instagram"></i></a>
+                                <a href="https://linkedin.com/in/technicalsirius" class="social-link"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://youtube.com/TechnicalSirius" class="social-link"><i class="fab fa-youtube"></i></a>
+                                <a href="https://github.com/TechnicalSirius" class="social-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">
+                                <i class="fas fa-user"></i> Your Name
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">
+                                <i class="fas fa-envelope"></i> Your Email
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <label for="message">
+                                <i class="fas fa-comment"></i> Your Message
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-bracket">{</span> 
+                    <i class="fas fa-code"></i> Technical Sirius 
+                    <span class="logo-bracket">}</span>
+                </div>
+                <p class="copyright">
+                    <i class="far fa-copyright"></i> 2026 Adarsh Tiwari | Technical Sirius. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loader-modern">
+            <div class="spinner-ring"></div>
+            <div class="loader-text">
+                <span class="loader-word">L</span>
+                <span class="loader-word">o</span>
+                <span class="loader-word">a</span>
+                <span class="loader-word">d</span>
+                <span class="loader-word">i</span>
+                <span class="loader-word">n</span>
+                <span class="loader-word">g</span>
+                <span class="loader-word">.</span>
+                <span class="loader-word">.</span>
+                <span class="loader-word">.</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

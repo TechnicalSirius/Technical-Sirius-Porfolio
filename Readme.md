@@ -49,8 +49,6 @@ I am a passionate developer interested in:
 
 ## 📸 Preview
 
-## 📸 Preview
-
 ![Portfolio Preview](images/preview.png)
 
 ---

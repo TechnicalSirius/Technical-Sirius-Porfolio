@@ -20,9 +20,9 @@ I am a passionate developer interested in:
 
 ## 🏷️ Badges
 
-![GitHub stars](https://img.shields.io/github/stars/your-username/your-repo-name?style=social)
-![GitHub forks](https://img.shields.io/github/forks/your-username/your-repo-name?style=social)
-![GitHub issues](https://img.shields.io/github/issues/your-username/your-repo-name)
+![GitHub stars](https://img.shields.io/github/stars/TechnicalSirius/Technical-Sirius-Porfolio?style=social)
+![GitHub forks](https://img.shields.io/github/forks/TechnicalSirius/Technical-Sirius-Porfolio?style=social)
+![GitHub issues](https://img.shields.io/github/issues/TechnicalSirius/Technical-Sirius-Porfolio)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
 ---

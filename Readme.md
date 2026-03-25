@@ -55,7 +55,7 @@ I am a passionate developer interested in:
 
 ## 🚀 Live Demo
 
-👉 ![See My Portfolio](https://technicalsirius.netlify.app/)
+👉 [See My Portfolio](https://technicalsirius.netlify.app/)
 
 ---
 

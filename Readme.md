@@ -1,3 +1,5 @@
+
+![Portfolio Preview](images/preview.png)
 # 🚀 Personal Portfolio Website
 
 Welcome to my personal portfolio website!
@@ -47,15 +49,15 @@ I am a passionate developer interested in:
 
 ---
 
-## 📸 Preview
 
-![Portfolio Preview](images/preview.png)
 
 ---
 
 ## 🚀 Live Demo
 
-👉 (Add your live website link here)
+👉 ## 📸 Preview
+
+![See My Portfolio](https://technicalsirius.netlify.app/)
 
 ---
 
